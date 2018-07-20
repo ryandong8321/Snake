@@ -16,6 +16,10 @@
 		CB130AAD21008B3A003F48C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB130AAC21008B3A003F48C7 /* main.m */; };
 		CB130AB721008B3A003F48C7 /* SnakeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB130AB621008B3A003F48C7 /* SnakeTests.m */; };
 		CB130AC221008B3A003F48C7 /* SnakeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB130AC121008B3A003F48C7 /* SnakeUITests.m */; };
+		CB130AD121008DBE003F48C7 /* CustomPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = CB130AD021008DBE003F48C7 /* CustomPoint.m */; };
+		CB130AD421008E5D003F48C7 /* GreedySnakeView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB130AD321008E5D003F48C7 /* GreedySnakeView.m */; };
+		CB130AD72101D2EB003F48C7 /* ReferenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB130AD62101D2EB003F48C7 /* ReferenceViewController.m */; };
+		CB130ADB2101D667003F48C7 /* ReferenceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB130ADA2101D667003F48C7 /* ReferenceViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,13 @@
 		CB130ABD21008B3A003F48C7 /* SnakeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnakeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB130AC121008B3A003F48C7 /* SnakeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SnakeUITests.m; sourceTree = "<group>"; };
 		CB130AC321008B3A003F48C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB130ACF21008DBE003F48C7 /* CustomPoint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomPoint.h; sourceTree = "<group>"; };
+		CB130AD021008DBE003F48C7 /* CustomPoint.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomPoint.m; sourceTree = "<group>"; };
+		CB130AD221008E5D003F48C7 /* GreedySnakeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GreedySnakeView.h; sourceTree = "<group>"; };
+		CB130AD321008E5D003F48C7 /* GreedySnakeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GreedySnakeView.m; sourceTree = "<group>"; };
+		CB130AD52101D2EB003F48C7 /* ReferenceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReferenceViewController.h; sourceTree = "<group>"; };
+		CB130AD62101D2EB003F48C7 /* ReferenceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReferenceViewController.m; sourceTree = "<group>"; };
+		CB130ADA2101D667003F48C7 /* ReferenceViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReferenceViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +124,13 @@
 				CB130AAB21008B3A003F48C7 /* Info.plist */,
 				CB130AAC21008B3A003F48C7 /* main.m */,
 				CB130AA321008B39003F48C7 /* Snake.xcdatamodeld */,
+				CB130ACF21008DBE003F48C7 /* CustomPoint.h */,
+				CB130AD021008DBE003F48C7 /* CustomPoint.m */,
+				CB130AD221008E5D003F48C7 /* GreedySnakeView.h */,
+				CB130AD321008E5D003F48C7 /* GreedySnakeView.m */,
+				CB130AD52101D2EB003F48C7 /* ReferenceViewController.h */,
+				CB130AD62101D2EB003F48C7 /* ReferenceViewController.m */,
+				CB130ADA2101D667003F48C7 /* ReferenceViewController.xib */,
 			);
 			path = Snake;
 			sourceTree = "<group>";
@@ -240,6 +258,7 @@
 			files = (
 				CB130AAA21008B3A003F48C7 /* LaunchScreen.storyboard in Resources */,
 				CB130AA721008B3A003F48C7 /* Assets.xcassets in Resources */,
+				CB130ADB2101D667003F48C7 /* ReferenceViewController.xib in Resources */,
 				CB130AA221008B39003F48C7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,8 +284,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB130AD72101D2EB003F48C7 /* ReferenceViewController.m in Sources */,
 				CB130AA521008B39003F48C7 /* Snake.xcdatamodeld in Sources */,
+				CB130AD421008E5D003F48C7 /* GreedySnakeView.m in Sources */,
 				CB130A9F21008B39003F48C7 /* ViewController.m in Sources */,
+				CB130AD121008DBE003F48C7 /* CustomPoint.m in Sources */,
 				CB130AAD21008B3A003F48C7 /* main.m in Sources */,
 				CB130A9C21008B39003F48C7 /* AppDelegate.m in Sources */,
 			);
